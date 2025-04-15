@@ -1068,7 +1068,7 @@ export default function MemoryGame() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-4 space-y-8 bg-gradient-to-br from-purple-950 via-indigo-950 to-slate-950 mt-20">
+    <div className="flex flex-col items-center justify-center min-h-screen p-4 space-y-8 bg-gradient-to-br from-purple-950 via-indigo-950 to-slate-950">
       <BinaryBackground count={60} opacity={0.08} />
       <div className="fixed top-4 left-0 right-0 flex flex-col items-center space-y-4 z-10 px-4">
         <div className="flex items-center justify-center w-full max-w-xs sm:max-w-md">
