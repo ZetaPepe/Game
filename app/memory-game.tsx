@@ -1068,7 +1068,7 @@ export default function MemoryGame() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-4 space-y-8 bg-gradient-to-br from-purple-950 via-indigo-950 to-slate-950">
+    <div className="flex flex-col items-center justify-center min-h-screen p-4 space-y-8 bg-gradient-to-br from-purple-950 via-indigo-950 to-slate-950 mt-20">
       <BinaryBackground count={60} opacity={0.08} />
       <div className="fixed top-4 left-0 right-0 flex flex-col items-center space-y-4 z-10 px-4">
         <div className="flex items-center justify-center w-full max-w-xs sm:max-w-md">
@@ -1895,7 +1895,7 @@ export default function MemoryGame() {
         )}
       </AnimatePresence>
 
-      <div className="absolute top-0 right-4 flex space-x-4 z-0 !important">
+      <div className="absolute top-0 right-4 flex space-x-4 z-50">
         <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faTelegram} className="text-white text-2xl hover:text-gray-400 transition" />
         </a>
