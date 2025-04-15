@@ -1138,6 +1138,9 @@ export default function MemoryGame() {
           Matches: {matches} / {cards.length / 2}
         </p>
         <p className="text-indigo-200 text-sm sm:text-base mt-1">Stage: {stage}/6</p>
+        <p className="text-indigo-200 text-sm sm:text-base mt-1 bg-gradient-to-r from-yellow-300 via-amber-400 to-orange-300 text-transparent bg-clip-text">
+          CA：6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN
+        </p>
       </div>
 
       {/* Owned Power-ups */}
