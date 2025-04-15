@@ -1895,7 +1895,7 @@ export default function MemoryGame() {
         )}
       </AnimatePresence>
 
-      <div className="absolute top-0 right-4 flex space-x-4 z-50">
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-4 z-50">
         <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faTelegram} className="text-white text-2xl hover:text-gray-400 transition" />
         </a>
