@@ -1139,7 +1139,7 @@ export default function MemoryGame() {
         <p className="text-indigo-200 text-sm sm:text-base">
           Matches: {matches} / {cards.length / 2}
         </p>
-        <p className="text-indigo-200 text-sm sm:text-base mt-1"> CA：: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN</p>
+        <p className="text-indigo-200 text-sm sm:text-base mt-1"> </p>
 
       </div>
 
@@ -1897,7 +1897,7 @@ export default function MemoryGame() {
         <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faTelegram} className="text-white text-2xl hover:text-gray-400 transition" />
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://x.com/gameforgenius" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faTwitter} className="text-white text-2xl hover:text-gray-400 transition" />
         </a>
       </div>
