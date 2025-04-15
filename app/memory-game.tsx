@@ -1894,6 +1894,18 @@ export default function MemoryGame() {
           </motion.div>
         )}
       </AnimatePresence>
+
+      <div className="absolute top-4 right-4 flex space-x-4 z-50">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faGithub} className="text-white text-2xl hover:text-gray-400 transition" />
+        </a>
+        <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faTelegram} className="text-white text-2xl hover:text-gray-400 transition" />
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faTwitter} className="text-white text-2xl hover:text-gray-400 transition" />
+        </a>
+      </div>
     </div>
   )
 }
