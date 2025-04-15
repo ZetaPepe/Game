@@ -1132,7 +1132,7 @@ export default function MemoryGame() {
         )}
       </div>
 
-      <div className="text-center space-y-2 mt-40 sm:mt-36">
+      <div className="text-center space-y-2 mt-45 sm:mt-36">
         <h1 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-yellow-300 via-amber-400 to-orange-300 text-transparent bg-clip-text">
           Game For Genius
         </h1>
@@ -1141,7 +1141,7 @@ export default function MemoryGame() {
         </p>
         <p className="text-indigo-200 text-sm sm:text-base mt-1">Stage: {stage}/6</p>
         <p className="text-indigo-200 text-sm sm:text-base mt-1 bg-gradient-to-r from-yellow-300 via-amber-400 to-orange-300 text-transparent bg-clip-text">
-          
+          CA：
         </p>
       </div>
 
