@@ -25,6 +25,8 @@ import {
   Volume2,
   VolumeX,
 } from "lucide-react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faGithub, faTelegram, faTwitter } from "@fortawesome/free-brands-svg-icons"
 
 type MemoryCard = {
   id: number
@@ -1066,6 +1068,18 @@ export default function MemoryGame() {
   }
 
   return (
+    <div className="absolute top-4 right-4 flex space-x-4 z-50">
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faGithub} className="text-white text-2xl hover:text-gray-400 transition" />
+      </a>
+      <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faTelegram} className="text-white text-2xl hover:text-gray-400 transition" />
+      </a>
+      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faTwitter} className="text-white text-2xl hover:text-gray-400 transition" />
+      </a>
+    </div>
+
     <div className="flex flex-col items-center justify-center min-h-screen p-4 space-y-8 bg-gradient-to-br from-purple-950 via-indigo-950 to-slate-950">
       <BinaryBackground count={60} opacity={0.08} />
       <div className="fixed top-4 left-0 right-0 flex flex-col items-center space-y-4 z-10 px-4">
