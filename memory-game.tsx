@@ -7,6 +7,8 @@ import { Card } from "@/components/ui/card"
 import { toast } from "sonner"
 import Image from "next/image"
 import { useSoundEffects } from "@/hooks/use-sound-effects"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faGithub, faTelegram, faTwitter } from "@fortawesome/free-brands-svg-icons"
 
 type MemoryCard = {
   id: number
@@ -370,6 +372,49 @@ export default function MemoryGame() {
           </motion.div>
         )}
       </AnimatePresence>
+    </div>
+  )
+}
+
+export default function Component() {
+  return (
+    <div className="w-full h-screen bg-gray-900 relative">
+      {/* 右上角社交媒体图标 */}
+      <div className="absolute top-4 right-4 flex space-x-4 z-50">
+        <a 
+          href="https://github.com/yourusername" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-white hover:text-gray-400 text-2xl"
+        >
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
+        <a 
+          href="https://t.me/yourusername" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-white hover:text-gray-400 text-2xl"
+        >
+          <FontAwesomeIcon icon={faTelegram} />
+        </a>
+        <a 
+          href="https://twitter.com/yourusername" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-white hover:text-gray-400 text-2xl"
+        >
+          <FontAwesomeIcon icon={faTwitter} />
+        </a>
+      </div>
+
+      {/* 添加图片 */}
+      <div className="absolute top-[calc(50%-300px)] left-1/2 transform -translate-x-1/2 z-10">
+        <img src="/AI.png" alt="Your Image" className="w-24 h-auto"/>
+      </div>
+
+      <Canvas camera={{ position: [10.047021, -0.127436, -11.137374], fov: 50 }}>
+        <Scene />
+      </Canvas>
     </div>
   )
 }
