@@ -1895,7 +1895,7 @@ export default function MemoryGame() {
         )}
       </AnimatePresence>
 
-      <div className="absolute top-4 right-4 flex space-x-4 z-50">
+      <div className="absolute top-1 right-4 flex space-x-4 z-50">
         <a href="https://github.com" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} className="text-white text-2xl hover:text-gray-400 transition" />
         </a>
